@@ -21,6 +21,6 @@ steps:
       - org.apache.logging
     maxPermissibleCvssV2Score: 10.0
     maxPermissibleCvssV3Score: 10.0
-  knowledgeBaseId: ocid1.service.oc1.iad.amaaaaaansx72maajcpbx6e2w7grrtxszb5z7nnmium7o6z7ax4ixn7rpdta
-  vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaarcj6suq4ces2hqobkgzsorhg7xr5bvyrydnc7hil4vqbpjgaslha
+  knowledgeBaseId: ocid1.admknowledgebase.oc1.us-sanjose-1.amaaaaaanf25m3qa3dlybflq5tvvongi7jklcg3hsyrnqi3pcsnuskh3mupq
+  vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaayrtdxlkhtj743elimx7mnpdlummsralzxwsk3irgvvhr6pmxbc7q
   vulnerabilityAuditName: report_success
