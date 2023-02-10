@@ -4,12 +4,21 @@ timeoutInSeconds: 6000
 runAs: root
 shell: bash
 
-# env:
+env:
 #   variables:
 #     pomFileLocation: /workspace/Source/pom.xml
 #     compId: ocid1.compartment.oc1..aaaaaaaaiglmbwo3raoecqras722lxwpcgkb7gu3jhisa3iagind3fkoxpmq
 #     reportName: "reportName"
+  exportedVariables:
+    - BUILDRUN_HASH
 
+steps:
+  - type: Command
+    name: "Define unique image tag"
+    timeoutInSeconds: 40
+    command: |
+      export BUILDRUN_HASH=`echo ${OCI_BUILD_RUN_ID} | rev | cut -c 1-7`
+      echo "BUILDRUN_HASH: " $BUILDRUN_HASH
 steps:
 - type: VulnerabilityAudit
   name: "Vulnerability Audit Step"
@@ -23,4 +32,4 @@ steps:
     maxPermissibleCvssV3Score: 6.0
   knowledgeBaseId: ocid1.admknowledgebase.oc1.us-sanjose-1.amaaaaaanf25m3qa3dlybflq5tvvongi7jklcg3hsyrnqi3pcsnuskh3mupq
   vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaayrtdxlkhtj743elimx7mnpdlummsralzxwsk3irgvvhr6pmxbc7q
-  vulnerabilityAuditName: report_success
+  vulnerabilityAuditName: Vuln_Scan_Report-$BUILDRUN_HASH
