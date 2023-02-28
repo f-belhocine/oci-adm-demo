@@ -30,6 +30,6 @@ steps:
       - org.apache.logging
     maxPermissibleCvssV2Score: 6.0
     maxPermissibleCvssV3Score: 6.0
-  knowledgeBaseId: ocid1.admknowledgebase.oc1.us-sanjose-1.amaaaaaanf25m3qa3dlybflq5tvvongi7jklcg3hsyrnqi3pcsnuskh3mupq
+  knowledgeBaseId: ocid1.admknowledgebase.oc1.phx.amaaaaaanf25m3qavhkw2qjojv3x3llo6xcu4sjvd7qdjrccjp7yqqe7m56a
   vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaayrtdxlkhtj743elimx7mnpdlummsralzxwsk3irgvvhr6pmxbc7q
   vulnerabilityAuditName: Vuln_Scan_Report_$BUILDRUN_HASH
