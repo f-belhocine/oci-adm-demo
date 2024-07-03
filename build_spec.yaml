@@ -21,5 +21,5 @@ steps:
     maxPermissibleCvssV2Score: 6.0
     maxPermissibleCvssV3Score: 6.0
   knowledgeBaseId: ocid1.admknowledgebase.oc1.eu-paris-1.amaaaaaayo54ekyad6ynofx3lncnwh4lszqhxxlu2tqqdsqnujbdh564lx2a
-  vulnerabilityAuditCompartmentId:ocid1.compartment.oc1..aaaaaaaa6f3swmewjvc4aoci5menvnw2sm3nu4laxmsysh4fqbujhv2el5pq 
+  vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaa6f3swmewjvc4aoci5menvnw2sm3nu4laxmsysh4fqbujhv2el5pq 
   vulnerabilityAuditName: Vuln_Scan_Report
