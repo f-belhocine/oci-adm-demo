@@ -6,7 +6,7 @@ shell: bash
 env:
 #   variables:
 #     pomFileLocation: /workspace/Source/pom.xml
-#     compId: ocid1.compartment.oc1..aaaaaaaaiglmbwo3raoecqras722lxwpcgkb7gu3jhisa3iagind3fkoxpmq
+#     compId: ocid1.compartment.oc1..aaaaaaaa6f3swmewjvc4aoci5menvnw2sm3nu4laxmsysh4fqbujhv2el5pq
 #     reportName: "reportName"
 
 steps:
@@ -20,6 +20,6 @@ steps:
       - org.apache.logging
     maxPermissibleCvssV2Score: 6.0
     maxPermissibleCvssV3Score: 6.0
-  knowledgeBaseId: ocid1.admknowledgebase.oc1.phx.amaaaaaanf25m3qa6puwcopqgjpf2ygsz5nf4cerdeuiosxnfnd6zfl34n2a
-  vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaayrtdxlkhtj743elimx7mnpdlummsralzxwsk3irgvvhr6pmxbc7q
+  knowledgeBaseId: ocid1.admknowledgebase.oc1.eu-paris-1.amaaaaaayo54ekyad6ynofx3lncnwh4lszqhxxlu2tqqdsqnujbdh564lx2a
+  vulnerabilityAuditCompartmentId:ocid1.compartment.oc1..aaaaaaaa6f3swmewjvc4aoci5menvnw2sm3nu4laxmsysh4fqbujhv2el5pq 
   vulnerabilityAuditName: Vuln_Scan_Report
